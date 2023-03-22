@@ -14,7 +14,7 @@ function getShort(link) {
 function createResult(link) {
     const resultEl = document.querySelector('#result')
     resultEl.innerHTML = link
-    resultEl.setAttribute('href', link)
+    resultEl.setAttribute('href', 'https://' + link)
 }
 
 
